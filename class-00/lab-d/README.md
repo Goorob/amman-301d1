@@ -14,9 +14,15 @@ After lecture, get together with your partner and read through the daily set of 
 
 ## GitHub repository
 
-Create a new repository on GitHub named `data-structures-and-algorithms`. You will continue to expand on this repository in your 401 course. The repository should have a root `README.md` file with an overview of the purpose of the repository. 
+**Create a new repository on GitHub named `data-structures-and-algorithms`.**
+ 
+Your daily code challenges will be done in this repository throughout 301.
 
-After you clone the folder, add in `eslintrc.json` and `.gitignore` files from the course repo's `configs` directory. Then copy the `package.json` file from the `starter-code` folder into the root folder of the repository, then run this command, which will install some necessary utilities for you.
+You will continue to expand on this repository in your 401 course. The repository should have a root `README.md` file with an overview of the purpose of the repository. 
+
+Clone this repository to your `codefellows` folder 
+
+After you clone the repository, copy the contents of the `starter-code` folder into the root folder of this new repository, then run this command, which will install some necessary libraries for you.
 
 * `npm install`
 
