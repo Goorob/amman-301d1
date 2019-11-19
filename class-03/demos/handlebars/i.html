@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
 
+    <!-- Begin/Build the demo without this template. Build it as we refactor (Demo part 3) -->
     <script id="neighborhood-template" type="text/x-handlebars-template">
       <div>
-        <h3 class="house">{{name}}</h3>
-        <p class="city">{{city}}</p>
-        <p class="population">{{population}}</p>
+        <h2>{{name}}</h2>
+        <p>City: {{city}}</p>
+        <p>Population: {{population}}</p>
       </div>
     </script>
 
@@ -24,6 +25,13 @@
 
     <main>
       <section id="neighborhoods">
+
+        <div class="template">
+          <h2 class="name"></h2>
+          <p class="city"></p>
+          <p class="population"></p>
+        </div>
+
       </section>
     </main>
 
@@ -31,8 +39,8 @@
       <span>&copy; 2018 Fake Data Limited</span>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.4.2/handlebars.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script>
     <script src="scripts/dataSet.js"></script>
     <script src="scripts/neighborhood.js"></script>
   </body>

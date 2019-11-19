@@ -32,6 +32,9 @@ With `let`, a variable declaration can be scoped to a code block `{ code }`, suc
 
 Follow these instructions carefully and in order.
 
+1. Work on your fork on a non-master branch. As you work, remember to add, commit, and push regularly.
+1. Create a new branch for this assignment called `class-00-lab-a`
+1. Make a copy of the starter-code folder named `lab`. Do you work in this folder.
 1. Open the `index.html` file in the browser to ensure that it works.
 1. In the `js/app.js` file, turn every single `var` variable declarations into `let`.
 1. After you do, there will be one error. Find that line in the code, delete that line and respond to the adjacent TODO task.
