@@ -15,6 +15,9 @@ Why does this happen? Arrow functions do not bind "this", so the context of "thi
 
 ## Assignment Tasks
 
+1. Work on your fork on a non-master branch. As you work, remember to add, commit, and push regularly.
+1. Create a new branch for this assignment called `class-00-lab-b`
+1. Make a copy of the starter-code folder named `lab`. Do you work in this folder.
 1. The `app.js` file contains examples of function expressions, as you are accustomed to seeing. Work through steps 1-9, reading the notes and reviewing the refactored samples. 
 1. For each of these steps, uncomment the console.log line. Open the `index.html` file in the browser and verify the correct output in the developer console.
 1. To complete step 10, refactor the function expressions one at a time. Uncomment the console.log line and use it to check that the output is the same after you have completed the refactoring process.

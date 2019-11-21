@@ -26,8 +26,9 @@ Plan to spend about 5 minutes reading through this document before getting start
 
 After that, follow the instructions below to fork and clone your class repository, and then spend about 45 minutes working in the starter code.
 
-1. Complete the work in a local clone of your fork of the class repo.
 1. Work on your fork on a non-master branch. As you work, remember to add, commit, and push regularly.
+1. Create a new branch for this assignment called `class-00-lab-c`
+1. Make a copy of the starter-code folder named `lab`. Do you work in this folder.
 1. Start by reading through the HTML and CSS files to see how they are interconnected.
 1. Create the following files: base.css, layout.css, and modules.css, and link them into the HTML file. For this code base, you will not need state.css or theme.css files.
 1. Following SMACSS conventions, move the individual CSS rules from style.css into the appropriate new CSS file. Feel free to refactor and optimize the individual CSS rules and HTML file as needed as you go through this process.
